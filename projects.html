@@ -22,7 +22,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                <a class="nav-link active" aria-current="page" href="file:///Users/graham/Desktop/MIT%20Xpro/index.html">Home</a>
               </li>
               <!--<li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -36,7 +36,7 @@
                 </ul>
               </li>-->
              <li class="nav-item">
-                <a class="nav-link" href="./projects.html">Projects</a>
+                <a class="nav-link" href="file:///Users/graham/Desktop/MIT%20Xpro/projects.html">Projects</a>
               </li>
             </ul>
           </div>
@@ -46,42 +46,53 @@
    
 
 
-    <div class="container">
-    <div class="row">
-        <div class="col">
+    <main class="grid">
+    
+        
             <!--Pacman Card-->
             <div class="card" style="width: 18rem;">
-                <img src="PacMan1.png" class="card-img-top" alt="..." width="250px" height="300px">
+                <img src="PacMan1.png" class="card-img-top" alt="...">
                 <div class="card-body">
                 <h5 class="card-title">Pacman Exercise</h5>
-                <p class="card-text">Description**A Pacman exercise that creates Pacmen with the click of a button, and each of them will move about the browser window at their own pace.</p>
+                <p class="card-text">This project creates Pacman icons with the click of a button 
+                  and moves them about the browser window each at their own pace. 
+                  Upon clicking "Add Pacman" in the web page, Javascript functions 
+                  create a Pacman at a random location with a random velocity. 
+                  When "Start Game" is clicked, the Pacmen move around in the DOM and change positions
+                  when they detect a collision with a wall. You can generate as many Pacmen as you want, 
+                  and they will all move about your screen individually.</p>
                 <a href="https://github.com/holmes-ge/Pacman" class="btn btn-primary">Click Here</a>
                 </div>
             </div>
-        </div>
-        <div class="col">
+        
+        
         <!--Eye Movement Card-->
         <div class="card" style="width: 18rem;">
             <img src="eyes.png" class="card-img-top" alt="...">
             <div class="card-body">
             <h5 class="card-title">Eye Movement Exercise</h5>
-            <p class="card-text">A web page with two eyes that follow your mouse movement.</p>
+            <p class="card-text">This project creates a web page with two eyes that follow the user's mouse movement. 
+              Using HTML and CSS, the image of two eyes over a dark blue background appears on the browser. 
+              Javascript uses mouse detection to make it appear that both of the eyes are following your movements.</p>
             <a href="https://github.com/holmes-ge/Eye-Movement.git" class="btn btn-primary">Click Here</a>
             </div>
         </div>
-        </div>
-        <div class="col">
+        
+        
         <!--Bus Tracker Card-->
         <div class="card" style="width: 18rem;">
             <img src="map.png" class="card-img-top" alt="...">
             <div class="card-body">
             <h5 class="card-title">Real Time Bus Tracker Exercise</h5>
-            <p class="card-text">A map with a marker icon that tracks the bus location</p>
+            <p class="card-text">This map animation project overlays a map with a marker icon that tracks the bus locations from MIT to Harvard. 
+              Once the map was sourced from MapBox using an access token, the marker was created at the location of the MIT campus. 
+              Using an array of bus stop coordinates, the program moves the marker from stop to stop in one-second increments once 
+              the button is clicked.</p>
             <a href="https://github.com/holmes-ge/Real-Time-Bus-Tracker.git" class="btn btn-primary">Click Here</a>
             </div>
         </div>
-        </div>
-    </div>
-    </div>
+        
+    
+  </main>
       
       </body>
